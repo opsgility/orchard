@@ -28,14 +28,8 @@
                     <td>@cultureInfoFrom.DisplayName</td>
                     <td>@cultureInfoTo.DisplayName</td>
                     <td>
-                        <ul class="action-links">
-                            <li class="action-link">
-                                <a href="@Url.Action("Edit", "TransliterationAdmin", new { id = currentSpecification.Id})">@T("Edit")</a>
-                            </li>
-                            <li class="action-link">
-                                <a href="@Url.Action("Remove", "TransliterationAdmin", new { id = currentSpecification.Id})">@T("Delete")</a>
-                            </li>
-                        </ul>
+                        <a href="@Url.Action("Edit", "TransliterationAdmin", new { id = currentSpecification.Id})">@T("Edit")</a> |
+                        <a href="@Url.Action("Remove", "TransliterationAdmin", new { id = currentSpecification.Id})">@T("Remove")</a>
                     </td>
                 </tr>
             }

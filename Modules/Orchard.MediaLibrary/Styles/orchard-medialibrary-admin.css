@@ -1,5 +1,5 @@
 .zone-content, #content, #main, #layout-content, #layout-main {
-    height: auto;
+    height: 100%;
     display: block;
     min-height: 400px;
     margin-bottom: 0;
